@@ -11,11 +11,11 @@
           <h1 class="HomeSponsors__categoryname section-title">{{category.name}}</h1>
           <ul class="HomeSponsors__sponsors">
             <li v-for="sponsor in category.sponsors" :key="sponsor.name">
-              <clazy-load :src="'/assets/partners/' + sponsor.image">
+              <!-- <clazy-load :src="'/assets/partners/' + sponsor.image"> -->
                 <a :href="''+sponsor.link" target="_blank">
                 <img class="HomeSponsors__sponsorimage" :src="'/assets/partners/' + sponsor.image" />
                 </a>
-              </clazy-load>
+              <!-- </clazy-load> -->
             </li>
           </ul>
         </li>
@@ -29,11 +29,11 @@
           <h1 class="HomeSponsors__categoryname section-title">{{category.name}}</h1>
           <ul class="HomeSponsors__sponsors">
             <li v-for="sponsor in category.sponsors" :key="sponsor.name">
-              <clazy-load :src="'/assets/partners/' + sponsor.image">
+              <!-- <clazy-load :src="'/assets/partners/' + sponsor.image"> -->
               <a :href="''+sponsor.link" target="_blank">
                 <img class="HomeSponsors__sponsorimage" :src="'/assets/partners/' + sponsor.image" style="max-width:25rem"/>
                 </a>
-              </clazy-load>
+              <!-- </clazy-load> -->
             </li>
           </ul>
         </li>
