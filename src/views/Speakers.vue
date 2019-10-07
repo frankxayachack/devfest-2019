@@ -3,7 +3,7 @@
     <div class="Speakers__container container">
       <h1 class="Speakers__title section-title">Speakers</h1>
       <p class="Speakers__about">
-        Hear from the Googlers, Partners, and Guest Speakers who are building the future of tech.
+        Hear from the GDEs, Partners, and Guest Speakers who are building the future of tech.
         <br />Check back often as we add more speakers, including our customers and partners.
       </p>
       <div class="Speakers__speakers">

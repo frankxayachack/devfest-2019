@@ -83,7 +83,7 @@ export default {
         },
         {
           year: "2016",
-          link: "https://photos.app.goo.gl/mUG2WfdaxeCguqeU9",
+          link: "https://goo.gl/photos/312JsSk686UqJb1Y7",
           photos: [
             "/assets/2016/1.jpg",
             "/assets/2016/2.jpg",

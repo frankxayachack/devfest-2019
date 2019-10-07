@@ -10,8 +10,7 @@
 
       <div class="HomeAboutGDG__about">
         <h1 class="section-title">About GDG Vientiane</h1>
-        <p>Google Developer Group (GDG) Vientiane is a group of enthusiastic Filipino developers interested to collaborate and learn more about new technologies.</p>
-        <p>GDG Vientiane is an independent group; our activities and the opinions expressed on any of our official social media pages should in no way be linked to Google, the corporation.</p>
+        <p>Google Developer Group Vientiane is inspired by GTUG/GDG Family . We started our journey in late 2010. We try to engage student developers, fresh graduates and professionals through our hack events & meetups. The motive is to create a local ecosystem of programmers & hackers in and around Vientiane. </p>
         <a
           class="button-link"
           target="_blank"

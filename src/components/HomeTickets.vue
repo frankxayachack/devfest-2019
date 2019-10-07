@@ -48,7 +48,7 @@
         <h1 class="HomeTickets__ticketName">Regular</h1>
         <h2 class="HomeTickets__ticketPrice">₭ 100,000</h2>
         <p class="HomeTickets__ticketDetails">
-          <b>November 1 - November 15</b>
+          <b>Nov 1 - Nov 15</b>
           <br />
           <b>200 tickets only!</b>
         </p>

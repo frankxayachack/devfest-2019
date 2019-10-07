@@ -12,7 +12,27 @@
           <ul class="HomeSponsors__sponsors">
             <li v-for="sponsor in category.sponsors" :key="sponsor.name">
               <clazy-load :src="'/assets/partners/' + sponsor.image">
+                <a :href="''+sponsor.link" target="_blank">
                 <img class="HomeSponsors__sponsorimage" :src="'/assets/partners/' + sponsor.image" />
+                </a>
+              </clazy-load>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="HomeSponsors__categories">
+        <li
+          class="HomeSponsors__category"
+          v-for="category in templatePartner"
+          :key="category.name"
+        >
+          <h1 class="HomeSponsors__categoryname section-title">{{category.name}}</h1>
+          <ul class="HomeSponsors__sponsors">
+            <li v-for="sponsor in category.sponsors" :key="sponsor.name">
+              <clazy-load :src="'/assets/partners/' + sponsor.image">
+              <a :href="''+sponsor.link" target="_blank">
+                <img class="HomeSponsors__sponsorimage" :src="'/assets/partners/' + sponsor.image" style="max-width:25rem"/>
+                </a>
               </clazy-load>
             </li>
           </ul>
@@ -36,32 +56,50 @@ export default {
           sponsors: [
             {
               name: "GDG",
-              image: "Community Partners-01.png"
+              image: "Community Partners-01.png",
+              link: "https://developers.google.com/community/gdg"
             },
             {
-              name: "Women Techmakers Vientiane",
-              image: "Community Partners-02.png"
+              name: "Women Techmakers",
+              image: "Community Partners-02.png",
+              link: "https://www.womentechmakers.com/"
             },
             {
               name: "LaoITDev",
-              image: "Community Partners-03.png"
+              image: "Community Partners-03.png",
+              link: "https://laoitdev.com/"
             },
             {
               name: "LoungOs",
-              image: "Community Partners-04.png"
+              image: "Community Partners-04.png",
+              link: "https://www.facebook.com/loungos"
             },
             {
               name: "Barcamp Vientiane",
-              image: "Community Partners-05.png"
+              image: "Community Partners-05.png",
+              link: "https://www.facebook.com/barcampvientiane/"
             },
             {
               name: "2600 Laos",
-              image: "Community Partners-06.png"
+              image: "Community Partners-06.png",
+              link: "https://www.facebook.com/2600laos/"
             },
-
             {
               name: "LaoHacker",
-              image: "Community Partners-07.png"
+              image: "Community Partners-07.png",
+              link: "https://www.facebook.com/l4oh4ck3r/"
+            }
+          ]
+        }
+      ],
+      templatePartner: [
+        {
+          name: 'Template Partner',
+          sponsors: [
+            {
+              name: "GDG Philippines",
+              image: "Community Partners-08.png",
+              link: "https://www.gdgph.org/"
             }
           ]
         }
