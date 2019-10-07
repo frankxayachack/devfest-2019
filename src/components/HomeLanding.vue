@@ -1,7 +1,7 @@
 <template>
   <div class="HomeLanding">
     <!-- Background cover for mobile -->
-    <clazy-load src="/assets/cover.png">
+    <clazy-load src="/assets/Cover-VTE.png">
       <transition name="scalein" appear>
         <div class="HomeLanding__background HomeLanding__background--mobile"></div>
       </transition>
@@ -9,7 +9,7 @@
     </clazy-load>
 
     <!-- Background cover for desktop -->
-    <clazy-load src="/assets/cover.png">
+    <clazy-load src="/assets/Cover-VTE.png">
       <transition name="scalein" appear>
         <div class="HomeLanding__background HomeLanding__background--desktop" v-parallax="0.4"></div>
       </transition>
@@ -41,12 +41,12 @@
               <img
                 class="HomeLanding__devfest-logo-image"
                 src="/assets/logo-only-white.svg"
-                alt="DevFest Philippines Logo"
+                alt="DevFest Vientiane Logo"
               />
               <div class="HomeLanding__devfest-logo-textgroup">
                 <h1 class="HomeLanding__devfest-logo-text">
-                  GDG DevFest
-                  <br />Philippines 2019
+                  DevFest
+                  <br />Vientiane 2019
                 </h1>
               </div>
             </div>
@@ -57,7 +57,7 @@
           <transition name="slideup" appear>
             <div class="HomeLanding__motto" style="transition-delay: 0.1s">
               The Grandest Technology
-              <br />Conference in the Philippines
+              <br />Conference in the Vientiane
             </div>
           </transition>
           <transition name="slideup" appear>
@@ -69,7 +69,7 @@
                     d="M19,4H18V2H16V4H8V2H6V4H5C3.89,4 3,4.9 3,6V20A2,2 0 0,0 5,22H19A2,2 0 0,0 21,20V6A2,2 0 0,0 19,4M19,20H5V10H19V20M19,8H5V6H19V8Z"
                   />
                 </svg>
-                <p>November 23, 2019</p>
+                <p>November 30, 2019</p>
               </div>
               <div class="HomeLanding__venue">
                 <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -78,7 +78,7 @@
                     d="M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z"
                   />
                 </svg>
-                <p>Novotel Manila</p>
+                <p>Lao Art Media Building 5th floor</p>
               </div>
             </div>
           </transition>
@@ -137,7 +137,7 @@ export default {
     left: 0
     right: 0
     bottom: 0
-    background: url('/assets/cover.png')
+    background: url('/assets/Cover-VTE.png')
     background-position: center
     background-size: cover
     width: 100%

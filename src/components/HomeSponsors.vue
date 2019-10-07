@@ -20,7 +20,7 @@
       </ul>
       <p>For sponsorships, email us at</p>
       <span class="HomeSponsors__email">
-        <a href="mailto:gdgphmarketing@gmail.com">gdgphmarketing@gmail.com</a>
+        <a href="mailto:info@gdgvientiane.org">info@gdgvientiane.org</a>
       </span>
     </div>
   </div>
@@ -35,41 +35,33 @@ export default {
           name: "Community Partners",
           sponsors: [
             {
-              name: "DevCon",
-              image: "devcon.png"
+              name: "GDG",
+              image: "Community Partners-01.png"
             },
             {
-              name: "Flutter PH",
-              image: "flutter-ph.png"
+              name: "Women Techmakers Vientiane",
+              image: "Community Partners-02.png"
             },
             {
-              name: "Girls Will Code",
-              image: "girls-will-code.png"
+              name: "LaoITDev",
+              image: "Community Partners-03.png"
             },
             {
-              name: "Space PH",
-              image: "space-ph.png"
+              name: "LoungOs",
+              image: "Community Partners-04.png"
             },
             {
-              name: "PWA Pilipinas",
-              image: "pwa-pilipinas.png"
+              name: "Barcamp Vientiane",
+              image: "Community Partners-05.png"
+            },
+            {
+              name: "2600 Laos",
+              image: "Community Partners-06.png"
             },
 
             {
-              name: "Women Who Code Manila",
-              image: "women-who-code-manila.png"
-            },
-            {
-              name: "VR Philippines",
-              image: "vr-ph.png"
-            },
-            {
-              name: "UXPH",
-              image: "uxph.png"
-            },
-            {
-              name: "Philippine Web Designers",
-              image: "philippine-web-designers.png"
+              name: "LaoHacker",
+              image: "Community Partners-07.png"
             }
           ]
         }

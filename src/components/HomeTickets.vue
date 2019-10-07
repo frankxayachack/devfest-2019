@@ -5,9 +5,15 @@
     </center>
     <div class="HomeTickets__tickets">
       <div class="HomeTickets__ticket">
-        <h1 class="HomeTickets__ticketName">Blind Bird</h1>
-        <h2 class="HomeTickets__ticketPrice">Php 2,000</h2>
-        <p class="HomeTickets__ticketDetails">Sold out!</p>
+        <h1 class="HomeTickets__ticketName">Early Bird</h1>
+        <h2 class="HomeTickets__ticketPrice">₭ 80,000</h2>
+        <p class="HomeTickets__ticketDetails">
+          <b style="color:yellow">Save 20% today</b>
+          <br />
+          <b>Oct 13 - Oct 31</b>
+          <br />
+          <b>First 100 tickets only!</b>
+        </p>
         <a class="HomeTickets__button">
           <svg style="width:24px;height:24px" viewBox="0 0 24 24">
             <path
@@ -19,10 +25,14 @@
         </a>
       </div>
       <div class="HomeTickets__ticket HomeTickets__ticket--active">
-        <h1 class="HomeTickets__ticketName">Early Bird</h1>
-        <h2 class="HomeTickets__ticketPrice">Php 2,500</h2>
+        <h1 class="HomeTickets__ticketName">Super Early Bird</h1>
+        <h2 class="HomeTickets__ticketPrice">₭ 50,000</h2>
         <p class="HomeTickets__ticketDetails">
-          <b>Limited offer only!</b>
+          <b style="color:red">Save 50% today</b>
+          <br />
+          <b>Oct 7 - Oct 12</b>
+          <br />
+          <b>First 50 tickets only!</b>
         </p>
         <a class="HomeTickets__button" @click.prevent="scrollToPaymentMethods()">
           <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -36,8 +46,12 @@
       </div>
       <div class="HomeTickets__ticket">
         <h1 class="HomeTickets__ticketName">Regular</h1>
-        <h2 class="HomeTickets__ticketPrice">Php 3,000</h2>
-        <p class="HomeTickets__ticketDetails">Coming soon!</p>
+        <h2 class="HomeTickets__ticketPrice">₭ 100,000</h2>
+        <p class="HomeTickets__ticketDetails">
+          <b>November 1 - November 15</b>
+          <br />
+          <b>200 tickets only!</b>
+        </p>
         <a class="HomeTickets__button">Coming soon!</a>
       </div>
     </div>
@@ -45,7 +59,7 @@
     <br />
     <a name="paymentmethods" style="padding-top: 4rem; display: inline-block"></a>
     <center>
-      <h1 class="section-title">Payment Methods</h1>
+      <!-- <h1 class="section-title">Payment Methods</h1>
       <div class="HomeTickets__paymentmodes">
         <div class="HomeTickets__paymentmode">
           <svg style="width:42px;height:42px" viewBox="0 0 24 24">
@@ -116,7 +130,7 @@
             <span>Payment Instructions</span>
           </div>
         </div>
-      </div>
+      </div>-->
     </center>
     <transition name="scalein">
       <div class="HomeTickets__modalwrapper" v-if="QRModalShown">
@@ -451,7 +465,8 @@ export default {
   },
   methods: {
     scrollToPaymentMethods() {
-      window.document.querySelector("[name=paymentmethods]").scrollIntoView();
+      // window.document.querySelector("[name=paymentmethods]").scrollIntoView();
+      window.open('https://register.gdgvientiane.org', '_blank');
     }
   }
 };

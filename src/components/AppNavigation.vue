@@ -6,11 +6,11 @@
           <img
             class="AppNavigation__devfest-logo-image"
             src="/assets/logo-only-colored.svg"
-            alt="DevFest Philippines Logo"
+            alt="DevFest Vientiane Logo"
           />
           <h1 class="AppNavigation__devfest-logo-text">
-            GDG DevFest
-            <br />Philippines 2019
+            DevFest
+            <br />Vientiane 2019
           </h1>
         </div>
         <a class="AppNavigation__menu" @click="asideSync = true">
@@ -67,11 +67,11 @@
           <img
             class="AppNavigation__devfest-logo-image"
             src="/assets/logo-only-colored.svg"
-            alt="DevFest Philippines Logo"
+            alt="DevFest Vientiane Logo"
           />
           <h1 class="AppNavigation__devfest-logo-text">
-            GDG DevFest
-            <br />Philippines 2019
+            DevFest
+            <br />Vientiane 2019
           </h1>
         </div>
         <button

@@ -2,9 +2,9 @@
   <div class="HomeStats">
     <div class="HomeStats__container container">
       <div class="left">
-        <h1 class="section-title">About DevFest Philipines</h1>
-        <p>GDG Philippines is set to brought up once again the most awaited technology conference of the year - DevFest Philippines 2019.</p>
-        <p>DevFest 2019 brings together experts in Android, Web and Cloud technologies to Manila for sessions, workshops and showcases. In this conference, our goal is to equip you with new knowledge and skills that you can immediately apply or bring back to your companies.</p>
+        <h1 class="section-title">About DevFest Vientiane</h1>
+        <p>GDG Vientiane is set to brought up once again the most awaited technology conference of the year - DevFest Vientiane 2019.</p>
+        <p>DevFest 2019 brings together experts in Web, Cloud technologies and Application security to Vientiane for sessions, workshops and showcases. In this conference, our goal is to equip you with new knowledge and skills that you can immediately apply or bring back to your companies.</p>
         <a
           class="button-link button-link--inverted"
           target="_blank"
@@ -16,22 +16,22 @@
       </div>
       <div class="HomeStats__grid">
         <div class="HomeStats__stat">
-          <div class="HomeStats__statNumber">300+</div>
+          <div class="HomeStats__statNumber">350+</div>
           <div class="HomeStats__statDivider"></div>
           <div class="HomeStats__statName">Attendees</div>
         </div>
         <div class="HomeStats__stat">
-          <div class="HomeStats__statNumber">17</div>
+          <div class="HomeStats__statNumber">17+</div>
           <div class="HomeStats__statDivider"></div>
           <div class="HomeStats__statName">Speakers</div>
         </div>
         <div class="HomeStats__stat">
-          <div class="HomeStats__statNumber">4</div>
+          <div class="HomeStats__statNumber">2</div>
           <div class="HomeStats__statDivider"></div>
           <div class="HomeStats__statName">Tracks</div>
         </div>
         <div class="HomeStats__stat">
-          <div class="HomeStats__statNumber">12</div>
+          <div class="HomeStats__statNumber">18</div>
           <div class="HomeStats__statDivider"></div>
           <div class="HomeStats__statName">Sessions</div>
         </div>

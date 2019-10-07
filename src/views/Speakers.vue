@@ -39,7 +39,7 @@
         <div class="Speakers__modal-speaker-details">
           <p class="Speakers__modal-speaker-name">Cho Eun</p>
           <p class="Speakers__modal-speaker-title">Software Engineer, Finastra</p>
-          <p class="Speakers__modal-speaker-country">Philippines</p>
+          <p class="Speakers__modal-speaker-country">Vientiane</p>
 
           <p
             class="Speakers__modal-speaker-bio"

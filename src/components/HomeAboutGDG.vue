@@ -1,7 +1,7 @@
 <template>
   <div class="HomeAboutGDG">
     <div class="HomeAboutGDG__container container">
-      <clazy-load src="/assets/team.jpg" :threshold="0">
+      <clazy-load src="/assets/gdg.png" :threshold="0">
         <transition name="fade" appear>
           <div class="HomeAboutGDG__image"></div>
         </transition>
@@ -9,14 +9,14 @@
       </clazy-load>
 
       <div class="HomeAboutGDG__about">
-        <h1 class="section-title">About GDG Philippines</h1>
-        <p>Google Developer Group (GDG) Philippines is a group of enthusiastic Filipino developers interested to collaborate and learn more about new technologies.</p>
-        <p>GDG Philippines is an independent group; our activities and the opinions expressed on any of our official social media pages should in no way be linked to Google, the corporation.</p>
+        <h1 class="section-title">About GDG Vientiane</h1>
+        <p>Google Developer Group (GDG) Vientiane is a group of enthusiastic Filipino developers interested to collaborate and learn more about new technologies.</p>
+        <p>GDG Vientiane is an independent group; our activities and the opinions expressed on any of our official social media pages should in no way be linked to Google, the corporation.</p>
         <a
           class="button-link"
           target="_blank"
           rel="noreferrer"
-          href="https://www.gdgph.org/#/team"
+          href="https://gdgvientiane.org/team"
         >Meet the Team</a>
       </div>
     </div>
@@ -44,7 +44,7 @@
       padding: 4rem 3rem
 
   &__image
-    background: url(/assets/team.jpg)
+    background: url(/assets/gdg.png)
     background-size: cover
     background-position: center
     background-repeat: no-repeat
