@@ -81,12 +81,12 @@ export default {
             },
             {
               name: "2600 Laos",
-              image: "Community Partners-06.png",
+              image: "Community Partners-07.png",
               link: "https://www.facebook.com/2600laos/"
             },
             {
               name: "LaoHacker",
-              image: "Community Partners-07.png",
+              image: "Community Partners-06.png",
               link: "https://www.facebook.com/l4oh4ck3r/"
             }
           ]
