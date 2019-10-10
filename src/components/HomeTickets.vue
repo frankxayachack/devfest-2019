@@ -6,11 +6,11 @@
     <div class="HomeTickets__tickets">
       <div class="HomeTickets__ticket">
         <h1 class="HomeTickets__ticketName">Early Bird</h1>
-        <h2 class="HomeTickets__ticketPrice">₭ 80,000</h2>
+        <h2 class="HomeTickets__ticketPrice">₭ 80.000</h2>
         <p class="HomeTickets__ticketDetails">
           <b style="color:yellow">Save 20% today</b>
           <br />
-          <b>Oct 13 - Oct 31</b>
+          <b>Oct 16 - Oct 31</b>
           <br />
           <b>First 100 tickets only!</b>
         </p>
@@ -26,11 +26,11 @@
       </div>
       <div class="HomeTickets__ticket HomeTickets__ticket--active">
         <h1 class="HomeTickets__ticketName">Super Early Bird</h1>
-        <h2 class="HomeTickets__ticketPrice">₭ 50,000</h2>
+        <h2 class="HomeTickets__ticketPrice">₭ 50.000</h2>
         <p class="HomeTickets__ticketDetails">
           <b style="color:red">Save 50% today</b>
           <br />
-          <b>Oct 7 - Oct 12</b>
+          <b>Oct 10 - Oct 15</b>
           <br />
           <b>First 50 tickets only!</b>
         </p>
@@ -46,7 +46,7 @@
       </div>
       <div class="HomeTickets__ticket">
         <h1 class="HomeTickets__ticketName">Regular</h1>
-        <h2 class="HomeTickets__ticketPrice">₭ 100,000</h2>
+        <h2 class="HomeTickets__ticketPrice">₭ 100.000</h2>
         <p class="HomeTickets__ticketDetails">
           <b>Nov 1 - Nov 15</b>
           <br />
@@ -466,7 +466,7 @@ export default {
   methods: {
     scrollToPaymentMethods() {
       // window.document.querySelector("[name=paymentmethods]").scrollIntoView();
-      window.open('https://register.gdgvientiane.org', '_blank');
+      window.open("https://register.gdgvientiane.org", "_blank");
     }
   }
 };

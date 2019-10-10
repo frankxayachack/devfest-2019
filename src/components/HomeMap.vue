@@ -17,7 +17,7 @@
 .HomeMap,
 iframe {
   height: 100vh;
-  width: 99.2vw;
+  width: 98.9vw;
   position: relative;
 }
 #location {
